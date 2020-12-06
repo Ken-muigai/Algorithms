@@ -1,4 +1,4 @@
-//RECURSION AND MEMOIZATION
+//RECURSION AND MEMOIZATION IN FIBONACCI
 
 const fib = (n, memo={}) => {
     if(n in memo){
@@ -21,7 +21,8 @@ const fib = (n, memo={}) => {
   // memoization is the process of storing results from a method call in a data structure for later reference therefore saving on time and space complexity.
   
   
-  
+ 
+  //REVERSE A STRING
   function reverse(string) {
     // Base case
     if (string.length < 2) return string;
@@ -31,3 +32,23 @@ const fib = (n, memo={}) => {
   }
   
   console.log(reverse("KenJoel"));
+
+
+  //GO THROUGH AN ARRAY AND PRINT ALL ELEMENTS USING RECURSION
+  var array = [2,4,44,5,68,9,0,1];
+  
+  var allOutPrint = (y) => {
+    // for(let i = 0; i < y.length; i++){
+    //     console.log(y[i]);
+    // }   
+    if(y.length > 0){
+        console.log(y[0])
+        allOutPrint(y.slice(1))
+    }else{
+        console.log("Done printing out");
+    }
+    
+  }
+
+allOutPrint(array);
+
