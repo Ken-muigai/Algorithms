@@ -1,2 +1,2 @@
 # Algorithms
-- My Journey throught understanding Data structures and Algorithms
+- My Journey to understanding Data structures and Algorithms
