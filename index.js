@@ -30,6 +30,8 @@ const fib = (n, memo={}) => {
     // console.log(string.slice(1, string.length) + string[0]);
     return reverse(string.slice(1, string.length)) + string[0];
   }
+
+
   
   console.log(reverse("KenJoel"));
 
@@ -51,4 +53,9 @@ const fib = (n, memo={}) => {
   }
 
 allOutPrint(array);
+
+#Python Itertools provides Combinations and Permutations.
+
+For Combination, returns combination of n numbers whose total equals target
+For Permutations, return all combinatuins of n numbers whose total may equal target
 
